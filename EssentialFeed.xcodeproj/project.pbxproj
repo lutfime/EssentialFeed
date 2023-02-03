@@ -74,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				C1A3E448298DCC9C00931529 /* EssentialFeed.h */,
+				C1A3E462298DCDF600931529 /* Feed API */,
 				C1A3E461298DCD6200931529 /* Feed Feature */,
 			);
 			path = EssentialFeed;
@@ -94,6 +95,13 @@
 				C1A3E45F298DCD1700931529 /* FeedItem.swift */,
 			);
 			path = "Feed Feature";
+			sourceTree = "<group>";
+		};
+		C1A3E462298DCDF600931529 /* Feed API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Feed API";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
