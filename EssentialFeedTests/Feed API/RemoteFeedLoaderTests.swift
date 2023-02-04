@@ -129,6 +129,7 @@ final class RemoteFeedLoaderTests: XCTestCase {
             default:
                 XCTFail("Expected result \(expectedResult) got \(receivedResult) instead", file: file, line: line)
             }
+            exp.fulfill()
         }
         
         action()
