@@ -17,6 +17,7 @@
 		C1A3E468298F248100931529 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A3E467298F248100931529 /* HTTPClient.swift */; };
 		C1A3E46B299098C700931529 /* URLSessionHTTPClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A3E46A299098C700931529 /* URLSessionHTTPClientTests.swift */; };
 		C1A3E46E2990A0DD00931529 /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A3E46D2990A0DD00931529 /* XCTestCase+MemoryLeakTracking.swift */; };
+		C1A3E4722991AB7B00931529 /* URLSessionHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A3E4712991AB7B00931529 /* URLSessionHTTPClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		C1A3E467298F248100931529 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		C1A3E46A299098C700931529 /* URLSessionHTTPClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClientTests.swift; sourceTree = "<group>"; };
 		C1A3E46D2990A0DD00931529 /* XCTestCase+MemoryLeakTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+MemoryLeakTracking.swift"; sourceTree = "<group>"; };
+		C1A3E4712991AB7B00931529 /* URLSessionHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				C1A3E463298DCF6900931529 /* RemoteFeedLoader.swift */,
 				C1A3E465298F23AB00931529 /* FeedItemsMapper.swift */,
 				C1A3E467298F248100931529 /* HTTPClient.swift */,
+				C1A3E4712991AB7B00931529 /* URLSessionHTTPClient.swift */,
 			);
 			path = "Feed API";
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 				C1A3E464298DCF6900931529 /* RemoteFeedLoader.swift in Sources */,
 				C1A3E45E298DCD1100931529 /* FeedLoader.swift in Sources */,
 				C1A3E466298F23AB00931529 /* FeedItemsMapper.swift in Sources */,
+				C1A3E4722991AB7B00931529 /* URLSessionHTTPClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
