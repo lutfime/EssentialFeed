@@ -37,6 +37,7 @@ class LoadFeedFromCacheUseCaseTests: XCTestCase {
             default:
                 XCTFail("Expected failure, got \(result) instead")
             }
+            exp.fulfill()
         }
         
         store.completeRetrieval(with: retrievalError)
