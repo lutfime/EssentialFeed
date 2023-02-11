@@ -46,10 +46,14 @@ public class LocalFeedLoader{
             case .empty:
                 completion(.success([]))
             case .failure(let error):
-                self.store.deleteCachedFeed{_ in}
                 completion(.failure(error))
             }
         }
+    }
+    
+    public func validateCache() {
+        store.retrieve { _ in }
+        store.deleteCachedFeed { _ in }
     }
     
     private func cache(_ items: [FeedImage], with completion: @escaping (SaveResult) -> Void) {
