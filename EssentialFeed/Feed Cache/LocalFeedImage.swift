@@ -1,13 +1,13 @@
 //
-//  FeedItem.swift
+//  LocalFeedItem.swift
 //  EssentialFeed
 //
-//  Created by Wan Ahmad Lutfi on 04/02/2023.
+//  Created by Wan Ahmad Lutfi on 09/02/2023.
 //
 
 import Foundation
 
-public struct FeedImage: Equatable {
+public struct LocalFeedImage: Equatable {
     public let id: UUID
     public let description: String?
     public let location: String?
@@ -18,14 +18,5 @@ public struct FeedImage: Equatable {
         self.description = description
         self.location = location
         self.url = url
-    }
-}
-
-extension FeedImage: Decodable {
-    private enum CodingKeys: String, CodingKey {
-        case id
-        case description
-        case location
-        case url = "image"
     }
 }
