@@ -108,16 +108,3 @@ final class ValidateFeedCacheUseCaseTests: XCTestCase {
 
 }
 
-private extension Date {
-    func minusFeedCacheMaxAge() -> Date {
-        return adding(days: -7)
-    }
-    
-    func adding(days: Int) -> Date {
-        return Calendar(identifier: .gregorian).date(byAdding: .day, value: days, to: self)!
-    }
-    
-    func adding(seconds: TimeInterval) -> Date {
-        return self + seconds
-    }
-}
