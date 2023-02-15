@@ -20,9 +20,7 @@ public final class CoreDataFeedStore: FeedStore {
         let context = self.context
         context.perform {
             do{
-                let request = NSFetchRequest<ManagedCache>(entityName: ManagedCache.entity().name!)
-                request.returnsObjectsAsFaults = false //This flag set so you can access object immediately
-                if let cache = try context.fetch(request).first{
+                if let cache = try ManagedCache.find(in: context) {
                     completion(.found(feed: cache.localFeed, timestamp: cache.timestamp!))
                 }else{
                     completion(.empty)
@@ -88,13 +86,20 @@ private extension NSManagedObjectModel {
     }
 }
 
-extension ManagedCache{
+private extension ManagedCache{
+    
+    static func find(in context: NSManagedObjectContext) throws -> ManagedCache? {
+        let request = NSFetchRequest<ManagedCache>(entityName: entity().name!)
+        request.returnsObjectsAsFaults = false //This flag set so you can access object immediately
+        return try context.fetch(request).first
+    }
+    
     var localFeed: [LocalFeedImage] {
         return feed!.compactMap { ($0 as? ManagedFeedImage)?.local }
     }
 }
 
-extension ManagedFeedImage{
+private extension ManagedFeedImage{
     static func images(from localFeed: [LocalFeedImage], in context: NSManagedObjectContext) -> NSOrderedSet {
         return NSOrderedSet(array: localFeed.map { local in
             let managed = ManagedFeedImage(context: context)
