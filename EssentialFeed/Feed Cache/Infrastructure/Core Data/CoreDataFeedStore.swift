@@ -66,36 +66,4 @@ public final class CoreDataFeedStore: FeedStore {
 }
 
 
-private extension ManagedCache{
-    static func newUniqueInstance(in context: NSManagedObjectContext) throws -> ManagedCache {
-        try find(in: context).map(context.delete)
-        return ManagedCache(context: context)
-    }
-    
-    static func find(in context: NSManagedObjectContext) throws -> ManagedCache? {
-        let request = NSFetchRequest<ManagedCache>(entityName: entity().name!)
-        request.returnsObjectsAsFaults = false //This flag set so you can access object immediately
-        return try context.fetch(request).first
-    }
-    
-    var localFeed: [LocalFeedImage] {
-        return feed!.compactMap { ($0 as? ManagedFeedImage)?.local }
-    }
-}
 
-private extension ManagedFeedImage{
-    static func images(from localFeed: [LocalFeedImage], in context: NSManagedObjectContext) -> NSOrderedSet {
-        return NSOrderedSet(array: localFeed.map { local in
-            let managed = ManagedFeedImage(context: context)
-            managed.id = local.id
-            managed.imageDescription = local.description
-            managed.location = local.location
-            managed.url = local.url
-            return managed
-        })
-    }
-
-    var local: LocalFeedImage {
-        return LocalFeedImage(id: id!, description: imageDescription, location: location, url: url!)
-    }
-}
