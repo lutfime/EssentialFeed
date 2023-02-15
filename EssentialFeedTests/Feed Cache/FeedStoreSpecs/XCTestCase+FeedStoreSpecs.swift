@@ -69,7 +69,7 @@ extension FeedStoreSpecs where Self: XCTestCase {
     func assertThatDeleteHasNoSideEffectsOnEmptyCache(on sut: FeedStore, file: StaticString = #file, line: UInt = #line) {
         deleteCache(from: sut)
         
-        expect(sut, toRetrieve: .empty, file: file, line: line)
+        expect(sut, toRetrieveTwice:  .empty, file: file, line: line)
     }
 
     func assertThatDeleteDeliversNoErrorOnNonEmptyCache(on sut: FeedStore, file: StaticString = #file, line: UInt = #line) {
