@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FeedImageCell" rowHeight="580" id="J6o-HI-6aL">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FeedImageCell" rowHeight="580" id="J6o-HI-6aL" customClass="FeedImageCell" customModule="Prototype" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="50" width="393" height="580"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="J6o-HI-6aL" id="9gh-NB-rBr">
@@ -99,6 +99,12 @@ Location</string>
                                         <constraint firstItem="Gt4-hb-Vmp" firstAttribute="top" secondItem="9gh-NB-rBr" secondAttribute="topMargin" priority="999" constant="6" id="cHg-WL-nLs"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="descriptionLabel" destination="H57-gm-Ecg" id="EKf-j5-4KG"/>
+                                    <outlet property="feedImageView" destination="zSL-7x-3nZ" id="RWo-rB-Igu"/>
+                                    <outlet property="locationContainer" destination="cOR-99-H28" id="tbt-y4-GBx"/>
+                                    <outlet property="locationLabel" destination="vxT-j5-ieG" id="fGl-Gw-Lql"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
