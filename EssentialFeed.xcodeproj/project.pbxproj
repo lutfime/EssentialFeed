@@ -214,8 +214,7 @@
 			isa = PBXGroup;
 			children = (
 				C1AE868C29A5BBB8008F084E /* Feed Image Loader */,
-				C1AE868929A5BB83008F084E /* Controllers */,
-				C1AE868829A5BB03008F084E /* Views */,
+				C1AE869C29A5C1E1008F084E /* Feed UI */,
 			);
 			path = EssentialFeediOS;
 			sourceTree = "<group>";
@@ -458,6 +457,15 @@
 				C1AE869629A5BC9E008F084E /* FeedViewControllerTest+Assertions.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C1AE869C29A5C1E1008F084E /* Feed UI */ = {
+			isa = PBXGroup;
+			children = (
+				C1AE868929A5BB83008F084E /* Controllers */,
+				C1AE868829A5BB03008F084E /* Views */,
+			);
+			path = "Feed UI";
 			sourceTree = "<group>";
 		};
 		C1F343572994610700ED42B1 /* Feed Cache */ = {
