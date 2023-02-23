@@ -115,6 +115,7 @@ Location</string>
                     </tableView>
                     <navigationItem key="navigationItem" id="vIH-uI-DIj"/>
                     <refreshControl key="refreshControl" opaque="NO" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="ZPa-at-ToZ">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <connections>
                             <action selector="refresh" destination="mAA-BY-QEr" eventType="valueChanged" id="RoY-L6-Kao"/>
@@ -123,7 +124,7 @@ Location</string>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KgD-uo-mr4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1035.8778625954199" y="-221.12676056338029"/>
+            <point key="canvasLocation" x="12700" y="-187"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="vmd-GR-zGc">
@@ -141,7 +142,7 @@ Location</string>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BSn-MK-pFO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="109.16030534351144" y="-221.12676056338029"/>
+            <point key="canvasLocation" x="150" y="-211"/>
         </scene>
     </scenes>
     <resources>
