@@ -272,13 +272,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C123B4C229A60D410017037C /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		C123B4C729A705590017037C /* Feed Presentation */ = {
 			isa = PBXGroup;
 			children = (
@@ -526,7 +519,6 @@
 		C1AE869C29A5C1E1008F084E /* Feed UI */ = {
 			isa = PBXGroup;
 			children = (
-				C123B4C229A60D410017037C /* Models */,
 				C1AE869D29A5C205008F084E /* Composers */,
 				C1AE868929A5BB83008F084E /* Controllers */,
 				C1AE868829A5BB03008F084E /* Views */,
