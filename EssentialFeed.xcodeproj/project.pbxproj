@@ -319,6 +319,16 @@
 			path = "Feed Presentation";
 			sourceTree = "<group>";
 		};
+		C12F872729B5C36400884207 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C1E9623729A5AD8F001F7166 /* UIView+Shimmering.swift */,
+				C1326BCC29A754C7001B20A3 /* UITableView+Dequeueing.swift */,
+				C1326BCE29A75723001B20A3 /* UIImageView+Animations.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		C16E9D1D299CAC6D003A8895 /* Infrastructure */ = {
 			isa = PBXGroup;
 			children = (
@@ -488,12 +498,10 @@
 		C1AE868829A5BB03008F084E /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				C1E9623729A5AD8F001F7166 /* UIView+Shimmering.swift */,
+				C12F872729B5C36400884207 /* Helpers */,
 				C1E9623529A588C2001F7166 /* FeedImageCell.swift */,
 				C123B4D229A73CCE0017037C /* Feed.storyboard */,
 				C123B4D429A73DB90017037C /* Feed.xcassets */,
-				C1326BCC29A754C7001B20A3 /* UITableView+Dequeueing.swift */,
-				C1326BCE29A75723001B20A3 /* UIImageView+Animations.swift */,
 				C12F872529B5C0EA00884207 /* ErrorView.swift */,
 			);
 			path = Views;
