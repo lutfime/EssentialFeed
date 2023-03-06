@@ -13,7 +13,6 @@
 		C1325D4929B7008300F4DB55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1325D4729B7008300F4DB55 /* Main.storyboard */; };
 		C1325D4B29B7008400F4DB55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1325D4A29B7008400F4DB55 /* Assets.xcassets */; };
 		C1325D4E29B7008400F4DB55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1325D4C29B7008400F4DB55 /* LaunchScreen.storyboard */; };
-		C1325D5929B7008400F4DB55 /* EssentialAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1325D5829B7008400F4DB55 /* EssentialAppTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +35,6 @@
 		C1325D4D29B7008400F4DB55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1325D4F29B7008400F4DB55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1325D5429B7008400F4DB55 /* EssentialAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1325D5829B7008400F4DB55 /* EssentialAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialAppTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +90,6 @@
 		C1325D5729B7008400F4DB55 /* EssentialAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				C1325D5829B7008400F4DB55 /* EssentialAppTests.swift */,
 			);
 			path = EssentialAppTests;
 			sourceTree = "<group>";
@@ -208,7 +205,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1325D5929B7008400F4DB55 /* EssentialAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
