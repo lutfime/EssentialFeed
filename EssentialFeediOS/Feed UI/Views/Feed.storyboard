@@ -39,6 +39,9 @@
                                 <constraint firstAttribute="bottom" secondItem="gMH-qE-UbY" secondAttribute="bottom" id="n73-aM-iGV"/>
                                 <constraint firstAttribute="trailing" secondItem="gMH-qE-UbY" secondAttribute="trailing" id="x1v-8Z-IyI"/>
                             </constraints>
+                            <connections>
+                                <outlet property="label" destination="gMH-qE-UbY" id="vCV-Bd-x7O"/>
+                            </connections>
                         </view>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FeedImageCell" rowHeight="580" id="lQf-13-ux6" customClass="FeedImageCell" customModule="EssentialFeediOS" customModuleProvider="target">
