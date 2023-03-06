@@ -28,6 +28,9 @@
                                     <state key="normal" title="Error label">
                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </state>
+                                    <connections>
+                                        <action selector="hideMessageAnimated" destination="8Tv-H2-L1K" eventType="touchUpInside" id="mDt-SN-xgg"/>
+                                    </connections>
                                 </button>
                             </subviews>
                             <viewLayoutGuide key="safeArea" id="qFm-79-HTJ"/>
