@@ -18,7 +18,7 @@ public final class FeedUIComposer {
         let feedController = FeedViewController.makeWith(delegate: presentationAdapter, title: FeedPresenter.title)
         
         let presenter = FeedPresenter(
-            feedView: FeedViewAdapter(controller: feedController, imageLoader: imageLoader),
+            feedView: FeedViewAdapter(controller: feedController, imageLoader: MainQueueDispatchDecorator(decoratee: imageLoader)),
             loadingView: WeakRefVirtualProxy(feedController))
         presentationAdapter.presenter = presenter
         return feedController
@@ -49,6 +49,17 @@ extension MainQueueDispatchDecorator: FeedLoader where T == FeedLoader{
             }
         }
     }
+}
+
+extension MainQueueDispatchDecorator: FeedImageDataLoader where T == FeedImageDataLoader{
+    func loadImageData(from url: URL, completion: @escaping (FeedImageDataLoader.Result) -> Void) -> FeedImageDataLoaderTask {
+        decoratee.loadImageData(from: url) {[weak self] result in
+            self?.dispatch {
+                completion(result)
+            }
+        }
+    }
+    
 }
 
 
