@@ -7,7 +7,7 @@
 
 import XCTest
 import EssentialFeed
-
+import EssentialApp
 
 class FeedLoaderCacheDecoratorTests: XCTestCase, FeedLoaderTestCase {
 
