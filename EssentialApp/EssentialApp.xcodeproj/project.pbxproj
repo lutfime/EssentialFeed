@@ -21,6 +21,7 @@
 		C1325D7D29B7058E00F4DB55 /* FeedLoaderWithFallbackComposite.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1325D7C29B7058E00F4DB55 /* FeedLoaderWithFallbackComposite.swift */; };
 		C1325D7F29B70B2500F4DB55 /* FeedImageDataLoaderWithFallbackComposite.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1325D7E29B70B2500F4DB55 /* FeedImageDataLoaderWithFallbackComposite.swift */; };
 		C1325D8129B713CA00F4DB55 /* FeedImageDataLoaderWithFallbackComposite.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1325D8029B713CA00F4DB55 /* FeedImageDataLoaderWithFallbackComposite.swift */; };
+		C1325D8429B7140B00F4DB55 /* XCTestCase+MemoeryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1325D8329B7140B00F4DB55 /* XCTestCase+MemoeryLeakTracking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		C1325D7C29B7058E00F4DB55 /* FeedLoaderWithFallbackComposite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderWithFallbackComposite.swift; sourceTree = "<group>"; };
 		C1325D7E29B70B2500F4DB55 /* FeedImageDataLoaderWithFallbackComposite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderWithFallbackComposite.swift; sourceTree = "<group>"; };
 		C1325D8029B713CA00F4DB55 /* FeedImageDataLoaderWithFallbackComposite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderWithFallbackComposite.swift; sourceTree = "<group>"; };
+		C1325D8329B7140B00F4DB55 /* XCTestCase+MemoeryLeakTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+MemoeryLeakTracking.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 		C1325D5729B7008400F4DB55 /* EssentialAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				C1325D8229B713FA00F4DB55 /* Helpers */,
 				C1325D7129B7031D00F4DB55 /* FeedLoaderWithFallbackCompositeTests.swift */,
 				C1325D7E29B70B2500F4DB55 /* FeedImageDataLoaderWithFallbackComposite.swift */,
 			);
@@ -137,6 +140,14 @@
 				C1325D7429B7036800F4DB55 /* EssentialFeed.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1325D8229B713FA00F4DB55 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C1325D8329B7140B00F4DB55 /* XCTestCase+MemoeryLeakTracking.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +267,7 @@
 			files = (
 				C1325D7F29B70B2500F4DB55 /* FeedImageDataLoaderWithFallbackComposite.swift in Sources */,
 				C1325D7229B7031D00F4DB55 /* FeedLoaderWithFallbackCompositeTests.swift in Sources */,
+				C1325D8429B7140B00F4DB55 /* XCTestCase+MemoeryLeakTracking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
