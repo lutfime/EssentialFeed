@@ -51,6 +51,7 @@
 		C1325DFC29B7234F00F4DB55 /* FeedAcceptanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1325DFB29B7234F00F4DB55 /* FeedAcceptanceTests.swift */; };
 		C1325DFE29B7287700F4DB55 /* HTTPClientStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1325DFD29B7287700F4DB55 /* HTTPClientStub.swift */; };
 		C1325E0029B728A000F4DB55 /* InMemoryFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1325DFF29B728A000F4DB55 /* InMemoryFeedStore.swift */; };
+		C1325E0229B7326E00F4DB55 /* FeedSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1325E0129B7326E00F4DB55 /* FeedSnapshotTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,6 +125,7 @@
 		C1325DFB29B7234F00F4DB55 /* FeedAcceptanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedAcceptanceTests.swift; sourceTree = "<group>"; };
 		C1325DFD29B7287700F4DB55 /* HTTPClientStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClientStub.swift; sourceTree = "<group>"; };
 		C1325DFF29B728A000F4DB55 /* InMemoryFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InMemoryFeedStore.swift; sourceTree = "<group>"; };
+		C1325E0129B7326E00F4DB55 /* FeedSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedSnapshotTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +197,7 @@
 				C1325D9B29B71D0900F4DB55 /* SceneDelegateTests.swift */,
 				C1325DE729B721C200F4DB55 /* FeedUIIntegrationTests.swift */,
 				C1325DFB29B7234F00F4DB55 /* FeedAcceptanceTests.swift */,
+				C1325E0129B7326E00F4DB55 /* FeedSnapshotTests.swift */,
 			);
 			path = EssentialAppTests;
 			sourceTree = "<group>";
@@ -391,6 +394,7 @@
 				C1325DFC29B7234F00F4DB55 /* FeedAcceptanceTests.swift in Sources */,
 				C1325DF629B721C900F4DB55 /* UIRefreshControl+TestHelpers.swift in Sources */,
 				C1325D8429B7140B00F4DB55 /* XCTestCase+MemoeryLeakTracking.swift in Sources */,
+				C1325E0229B7326E00F4DB55 /* FeedSnapshotTests.swift in Sources */,
 				C1325DF329B721C900F4DB55 /* FeedUIIntegrationTests+Localization.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
