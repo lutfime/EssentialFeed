@@ -38,6 +38,8 @@
 		C1325D1F29B6D43F00F4DB55 /* HTTPURLResponse+StatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1325D1E29B6D43F00F4DB55 /* HTTPURLResponse+StatusCode.swift */; };
 		C1325D2129B6D5BB00F4DB55 /* URLProtocolStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1325D2029B6D5BB00F4DB55 /* URLProtocolStub.swift */; };
 		C1325D2329B6DD0200F4DB55 /* LocalFeedImageDataLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1325D2229B6DD0200F4DB55 /* LocalFeedImageDataLoaderTests.swift */; };
+		C1325D2529B6DF8000F4DB55 /* LocalFeedImageDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1325D2429B6DF8000F4DB55 /* LocalFeedImageDataLoader.swift */; };
+		C1325D2729B6DFB200F4DB55 /* FeedImageDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1325D2629B6DFB200F4DB55 /* FeedImageDataStore.swift */; };
 		C1326BCD29A754C7001B20A3 /* UITableView+Dequeueing.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1326BCC29A754C7001B20A3 /* UITableView+Dequeueing.swift */; };
 		C1326BCF29A75723001B20A3 /* UIImageView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1326BCE29A75723001B20A3 /* UIImageView+Animations.swift */; };
 		C16E9D21299CACC2003A8895 /* CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16E9D20299CACC2003A8895 /* CoreDataHelpers.swift */; };
@@ -183,6 +185,8 @@
 		C1325D1E29B6D43F00F4DB55 /* HTTPURLResponse+StatusCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HTTPURLResponse+StatusCode.swift"; sourceTree = "<group>"; };
 		C1325D2029B6D5BB00F4DB55 /* URLProtocolStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLProtocolStub.swift; sourceTree = "<group>"; };
 		C1325D2229B6DD0200F4DB55 /* LocalFeedImageDataLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeedImageDataLoaderTests.swift; sourceTree = "<group>"; };
+		C1325D2429B6DF8000F4DB55 /* LocalFeedImageDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeedImageDataLoader.swift; sourceTree = "<group>"; };
+		C1325D2629B6DFB200F4DB55 /* FeedImageDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataStore.swift; sourceTree = "<group>"; };
 		C1326BCC29A754C7001B20A3 /* UITableView+Dequeueing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Dequeueing.swift"; sourceTree = "<group>"; };
 		C1326BCE29A75723001B20A3 /* UIImageView+Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Animations.swift"; sourceTree = "<group>"; };
 		C16E9D20299CACC2003A8895 /* CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelpers.swift; sourceTree = "<group>"; };
@@ -628,6 +632,8 @@
 				C1F3435E299466BA00ED42B1 /* LocalFeedImage.swift */,
 				C1E77305299B2630008BBA94 /* FeedCachePolicy.swift */,
 				C17106E4299C90270099FCD2 /* FeedStore.xcdatamodeld */,
+				C1325D2429B6DF8000F4DB55 /* LocalFeedImageDataLoader.swift */,
+				C1325D2629B6DFB200F4DB55 /* FeedImageDataStore.swift */,
 			);
 			path = "Feed Cache";
 			sourceTree = "<group>";
@@ -929,6 +935,7 @@
 				C1A3E460298DCD1700931529 /* FeedItem.swift in Sources */,
 				C12F873B29B5C95D00884207 /* FeedErrorViewModel.swift in Sources */,
 				C16E9D25299CAD26003A8895 /* ManagedFeedImageHelpers.swift in Sources */,
+				C1325D2729B6DFB200F4DB55 /* FeedImageDataStore.swift in Sources */,
 				C1A3E468298F248100931529 /* HTTPClient.swift in Sources */,
 				C12F874029B5CC7500884207 /* FeedImagePresenter.swift in Sources */,
 				C12F873429B5C8D100884207 /* FeedPresenter.swift in Sources */,
@@ -948,6 +955,7 @@
 				C12F874229B5CCC200884207 /* FeedImageViewModel.swift in Sources */,
 				C1325D1C29B6AD9B00F4DB55 /* RemoteFeedImageDataLoader.swift in Sources */,
 				C1F3435B299461DB00ED42B1 /* LocalFeedLoader.swift in Sources */,
+				C1325D2529B6DF8000F4DB55 /* LocalFeedImageDataLoader.swift in Sources */,
 				C1A3E4722991AB7B00931529 /* URLSessionHTTPClient.swift in Sources */,
 				C17106E3299C8FB90099FCD2 /* CoreDataFeedStore.swift in Sources */,
 			);
