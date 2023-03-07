@@ -49,6 +49,7 @@
 		C1325DF929B721C900F4DB55 /* UIButton+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1325DEB29B721C800F4DB55 /* UIButton+TestHelpers.swift */; };
 		C1325DFA29B721C900F4DB55 /* UIImage+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1325DEE29B721C900F4DB55 /* UIImage+TestHelpers.swift */; };
 		C1325DFC29B7234F00F4DB55 /* FeedAcceptanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1325DFB29B7234F00F4DB55 /* FeedAcceptanceTests.swift */; };
+		C1325DFE29B7287700F4DB55 /* HTTPClientStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1325DFD29B7287700F4DB55 /* HTTPClientStub.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +121,7 @@
 		C1325DF029B721C900F4DB55 /* UIControl+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl+TestHelpers.swift"; sourceTree = "<group>"; };
 		C1325DF129B721C900F4DB55 /* FeedUIIntegrationTests+Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedUIIntegrationTests+Localization.swift"; sourceTree = "<group>"; };
 		C1325DFB29B7234F00F4DB55 /* FeedAcceptanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedAcceptanceTests.swift; sourceTree = "<group>"; };
+		C1325DFD29B7287700F4DB55 /* HTTPClientStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClientStub.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +224,7 @@
 				C1325D8B29B7181F00F4DB55 /* XCTestCase+FeedLoader.swift */,
 				C1325D9329B71B0E00F4DB55 /* FeedImageDataLoaderSpy.swift */,
 				C1325D9529B71B4000F4DB55 /* XCTestCase+FeedImageDataLoader.swift */,
+				C1325DFD29B7287700F4DB55 /* HTTPClientStub.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -377,6 +380,7 @@
 				C1325D9429B71B0E00F4DB55 /* FeedImageDataLoaderSpy.swift in Sources */,
 				C1325DF529B721C900F4DB55 /* FeedViewController+TestHelpers.swift in Sources */,
 				C1325D7F29B70B2500F4DB55 /* FeedImageDataLoaderWithFallbackComposite.swift in Sources */,
+				C1325DFE29B7287700F4DB55 /* HTTPClientStub.swift in Sources */,
 				C1325D7229B7031D00F4DB55 /* FeedLoaderWithFallbackCompositeTests.swift in Sources */,
 				C1325D8A29B7178E00F4DB55 /* FeedLoaderStub.swift in Sources */,
 				C1325DFA29B721C900F4DB55 /* UIImage+TestHelpers.swift in Sources */,
