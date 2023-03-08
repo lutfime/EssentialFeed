@@ -97,7 +97,7 @@ class FeedImageDataLoaderWithFallbackCompositeTests: XCTestCase {
     private func makeSUT(file: StaticString = #file, line: UInt = #line) -> (sut: FeedImageDataLoader, primary: LoaderSpy, fallback: LoaderSpy) {
         let primaryLoader = LoaderSpy()
         let fallbackLoader = LoaderSpy()
-        let sut = FeedImageDataLoaderWithFallbackComposite(primary: primaryLoader, fallback: fallbackLoader)
+        let sut = AFeedImageDataLoaderWithFallbackComposite(primary: primaryLoader, fallback: fallbackLoader)
         trackForMemoryLeaks(primaryLoader, file: file, line: line)
         trackForMemoryLeaks(fallbackLoader, file: file, line: line)
         trackForMemoryLeaks(sut, file: file, line: line)

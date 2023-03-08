@@ -8,7 +8,7 @@
 import Foundation
 import EssentialFeed
 
-public final class FeedImageDataLoaderCacheDecorator: FeedImageDataLoader {
+public final class AFeedImageDataLoaderCacheDecorator: FeedImageDataLoader {
     private let decoratee: FeedImageDataLoader
     private let cache: FeedImageDataCache
 
@@ -27,7 +27,7 @@ public final class FeedImageDataLoaderCacheDecorator: FeedImageDataLoader {
     }
 }
 
-private extension FeedImageDataCache {
+extension FeedImageDataCache {
     func saveIgnoringResult(_ data: Data, for url: URL) {
         save(data, for: url) { _ in }
     }

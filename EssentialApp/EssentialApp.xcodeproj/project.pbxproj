@@ -174,8 +174,6 @@
 				C1325D4A29B7008400F4DB55 /* Assets.xcassets */,
 				C1325D4C29B7008400F4DB55 /* LaunchScreen.storyboard */,
 				C1325D4F29B7008400F4DB55 /* Info.plist */,
-				C1325D8029B713CA00F4DB55 /* FeedImageDataLoaderWithFallbackComposite.swift */,
-				C1325D9929B71CAC00F4DB55 /* FeedImageDataLoaderCacheDecorator.swift */,
 			);
 			path = EssentialApp;
 			sourceTree = "<group>";
@@ -244,6 +242,8 @@
 		C1325E0E29B86FE500F4DB55 /* Not Needed because Combine */ = {
 			isa = PBXGroup;
 			children = (
+				C1325D8029B713CA00F4DB55 /* FeedImageDataLoaderWithFallbackComposite.swift */,
+				C1325D9929B71CAC00F4DB55 /* FeedImageDataLoaderCacheDecorator.swift */,
 				C1325D7C29B7058E00F4DB55 /* FeedLoaderWithFallbackComposite.swift */,
 				C1325D8F29B71A7600F4DB55 /* FeedLoaderCacheDecorator.swift */,
 			);
