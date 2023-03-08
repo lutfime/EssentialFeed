@@ -7,7 +7,7 @@
 
 import EssentialFeed
 
-public final class FeedLoaderCacheDecorator: FeedLoader {
+public final class AFeedLoaderCacheDecorator: FeedLoader {
     private let decoratee: FeedLoader
     private let cache: FeedCache
     
@@ -26,7 +26,7 @@ public final class FeedLoaderCacheDecorator: FeedLoader {
     }
 }
 
-private extension FeedCache {
+extension FeedCache {
     func saveIgnoringResult(_ feed: [FeedImage]) {
         save(feed) { _ in }
     }
