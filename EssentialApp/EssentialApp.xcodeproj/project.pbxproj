@@ -49,6 +49,7 @@
 		C1325DFC29B7234F00F4DB55 /* FeedAcceptanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1325DFB29B7234F00F4DB55 /* FeedAcceptanceTests.swift */; };
 		C1325DFE29B7287700F4DB55 /* HTTPClientStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1325DFD29B7287700F4DB55 /* HTTPClientStub.swift */; };
 		C1325E0029B728A000F4DB55 /* InMemoryFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1325DFF29B728A000F4DB55 /* InMemoryFeedStore.swift */; };
+		C1325E1029B9573700F4DB55 /* CombineHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1325E0F29B9573700F4DB55 /* CombineHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +121,7 @@
 		C1325DFB29B7234F00F4DB55 /* FeedAcceptanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedAcceptanceTests.swift; sourceTree = "<group>"; };
 		C1325DFD29B7287700F4DB55 /* HTTPClientStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClientStub.swift; sourceTree = "<group>"; };
 		C1325DFF29B728A000F4DB55 /* InMemoryFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InMemoryFeedStore.swift; sourceTree = "<group>"; };
+		C1325E0F29B9573700F4DB55 /* CombineHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineHelpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +170,7 @@
 				C1325DDA29B721B800F4DB55 /* Composers */,
 				C1325D4129B7008300F4DB55 /* AppDelegate.swift */,
 				C1325D4329B7008300F4DB55 /* SceneDelegate.swift */,
+				C1325E0F29B9573700F4DB55 /* CombineHelpers.swift */,
 				C1325D4A29B7008400F4DB55 /* Assets.xcassets */,
 				C1325D4C29B7008400F4DB55 /* LaunchScreen.storyboard */,
 				C1325D4F29B7008400F4DB55 /* Info.plist */,
@@ -356,6 +359,7 @@
 				C1325D7D29B7058E00F4DB55 /* FeedLoaderWithFallbackComposite.swift in Sources */,
 				C1325D9029B71A7600F4DB55 /* FeedLoaderCacheDecorator.swift in Sources */,
 				C1325D4429B7008300F4DB55 /* SceneDelegate.swift in Sources */,
+				C1325E1029B9573700F4DB55 /* CombineHelpers.swift in Sources */,
 				C1325DE329B721B800F4DB55 /* MainQueueDispatchDecorator.swift in Sources */,
 				C1325DE629B721B800F4DB55 /* FeedLoaderPresentationAdapter.swift in Sources */,
 				C1325DE229B721B800F4DB55 /* FeedImageDataLoaderPresentationAdapter.swift in Sources */,
