@@ -7,7 +7,7 @@
 
 import Foundation
 
-public class RemoteLoader<Resource> {
+public class ARemoteLoader<Resource> {
     private let client: HTTPClient
     private let url: URL
     private let mapper: Mapper

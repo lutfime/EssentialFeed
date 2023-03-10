@@ -90,9 +90,9 @@ class RemoteLoaderTests: XCTestCase {
         mapper: @escaping RemoteLoader<String>.Mapper = { _, _ in "any" },
         file: StaticString = #file,
         line: UInt = #line
-    ) -> (sut: RemoteLoader<String>, client: HTTPClientSpy) {
+    ) -> (sut: ARemoteLoader<String>, client: HTTPClientSpy) {
         let client = HTTPClientSpy()
-        let sut = RemoteLoader<String>(url: url, client: client, mapper: mapper)
+        let sut = ARemoteLoader<String>(url: url, client: client, mapper: mapper)
         trackForMemoryLeaks(sut, file: file, line: line)
         trackForMemoryLeaks(client, file: file, line: line)
         return (sut, client)
