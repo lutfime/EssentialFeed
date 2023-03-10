@@ -514,9 +514,9 @@
 		C1A3E451298DCC9C00931529 /* EssentialFeedTests */ = {
 			isa = PBXGroup;
 			children = (
+				C1A3E46C2990A0C700931529 /* Helpers */,
 				C1325E2A29BAE4BA00F4DB55 /* Shared API Infra */,
 				C12F872C29B5C48600884207 /* Feed Presentation */,
-				C1A3E46C2990A0C700931529 /* Helpers */,
 				C1A3E484299339E900931529 /* Feed Cache */,
 				C1A3E469298F267E00931529 /* Feed API */,
 				C1325E2D29BAE51E00F4DB55 /* Image Comments API */,
