@@ -98,7 +98,6 @@
 		C1E9623829A5AD8F001F7166 /* UIView+Shimmering.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E9623729A5AD8F001F7166 /* UIView+Shimmering.swift */; };
 		C1F34359299461C500ED42B1 /* FeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F34358299461C500ED42B1 /* FeedStore.swift */; };
 		C1F3435B299461DB00ED42B1 /* LocalFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F3435A299461DB00ED42B1 /* LocalFeedLoader.swift */; };
-		C1F3435D2994669D00ED42B1 /* RemoteFeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F3435C2994669D00ED42B1 /* RemoteFeedItem.swift */; };
 		C1F3435F299466BA00ED42B1 /* LocalFeedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F3435E299466BA00ED42B1 /* LocalFeedImage.swift */; };
 /* End PBXBuildFile section */
 
@@ -242,7 +241,6 @@
 		C1E9623729A5AD8F001F7166 /* UIView+Shimmering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Shimmering.swift"; sourceTree = "<group>"; };
 		C1F34358299461C500ED42B1 /* FeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStore.swift; sourceTree = "<group>"; };
 		C1F3435A299461DB00ED42B1 /* LocalFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeedLoader.swift; sourceTree = "<group>"; };
-		C1F3435C2994669D00ED42B1 /* RemoteFeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedItem.swift; sourceTree = "<group>"; };
 		C1F3435E299466BA00ED42B1 /* LocalFeedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeedImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -538,7 +536,6 @@
 				C1325D1D29B6D43200F4DB55 /* Helpers */,
 				C1A3E463298DCF6900931529 /* RemoteFeedLoader.swift */,
 				C1A3E465298F23AB00931529 /* FeedItemsMapper.swift */,
-				C1F3435C2994669D00ED42B1 /* RemoteFeedItem.swift */,
 				C1325D1B29B6AD9B00F4DB55 /* RemoteFeedImageDataLoader.swift */,
 			);
 			path = "Feed API";
@@ -945,7 +942,6 @@
 				C1A3E468298F248100931529 /* HTTPClient.swift in Sources */,
 				C12F874029B5CC7500884207 /* FeedImagePresenter.swift in Sources */,
 				C12F873429B5C8D100884207 /* FeedPresenter.swift in Sources */,
-				C1F3435D2994669D00ED42B1 /* RemoteFeedItem.swift in Sources */,
 				C12F873929B5C93900884207 /* FeedLoadingViewModel.swift in Sources */,
 				C1E77306299B2630008BBA94 /* FeedCachePolicy.swift in Sources */,
 				C1A3E464298DCF6900931529 /* RemoteFeedLoader.swift in Sources */,
