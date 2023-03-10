@@ -410,6 +410,23 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		C1325E2C29BAE50100F4DB55 /* Image Comments API */ = {
+			isa = PBXGroup;
+			children = (
+				C1325E2229BADFA300F4DB55 /* RemoteImageCommentsLoader.swift */,
+				C1325E2429BADFB800F4DB55 /* ImageCommentsMapper.swift */,
+			);
+			path = "Image Comments API";
+			sourceTree = "<group>";
+		};
+		C1325E2D29BAE51E00F4DB55 /* Image Comments API */ = {
+			isa = PBXGroup;
+			children = (
+				C1325E2029BADF6F00F4DB55 /* LoadImageCommentsFromRemoteUseCaseTests.swift */,
+			);
+			path = "Image Comments API";
+			sourceTree = "<group>";
+		};
 		C16E9D1D299CAC6D003A8895 /* Infrastructure */ = {
 			isa = PBXGroup;
 			children = (
@@ -483,6 +500,7 @@
 				C12F873229B5C8C000884207 /* Feed Presentation */,
 				C1F343572994610700ED42B1 /* Feed Cache */,
 				C1A3E462298DCDF600931529 /* Feed API */,
+				C1325E2C29BAE50100F4DB55 /* Image Comments API */,
 				C1A3E461298DCD6200931529 /* Feed Feature */,
 				C1325E2629BAE11B00F4DB55 /* Image Comments Feature */,
 			);
@@ -497,6 +515,7 @@
 				C1A3E46C2990A0C700931529 /* Helpers */,
 				C1A3E484299339E900931529 /* Feed Cache */,
 				C1A3E469298F267E00931529 /* Feed API */,
+				C1325E2D29BAE51E00F4DB55 /* Image Comments API */,
 			);
 			path = EssentialFeedTests;
 			sourceTree = "<group>";
@@ -521,8 +540,6 @@
 				C1A3E465298F23AB00931529 /* FeedItemsMapper.swift */,
 				C1F3435C2994669D00ED42B1 /* RemoteFeedItem.swift */,
 				C1325D1B29B6AD9B00F4DB55 /* RemoteFeedImageDataLoader.swift */,
-				C1325E2229BADFA300F4DB55 /* RemoteImageCommentsLoader.swift */,
-				C1325E2429BADFB800F4DB55 /* ImageCommentsMapper.swift */,
 			);
 			path = "Feed API";
 			sourceTree = "<group>";
@@ -532,7 +549,6 @@
 			children = (
 				C1A3E452298DCC9C00931529 /* RemoteFeedLoaderTests.swift */,
 				C12F874429B5CD5D00884207 /* LoadFeedImageDataFromRemoteUseCaseTests.swift */,
-				C1325E2029BADF6F00F4DB55 /* LoadImageCommentsFromRemoteUseCaseTests.swift */,
 			);
 			path = "Feed API";
 			sourceTree = "<group>";
