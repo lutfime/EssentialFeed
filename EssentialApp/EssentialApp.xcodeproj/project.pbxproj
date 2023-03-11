@@ -25,7 +25,7 @@
 		C1325DE329B721B800F4DB55 /* MainQueueDispatchDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1325DDD29B721B800F4DB55 /* MainQueueDispatchDecorator.swift */; };
 		C1325DE429B721B800F4DB55 /* WeakRefVirtualProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1325DDE29B721B800F4DB55 /* WeakRefVirtualProxy.swift */; };
 		C1325DE529B721B800F4DB55 /* FeedUIComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1325DDF29B721B800F4DB55 /* FeedUIComposer.swift */; };
-		C1325DE629B721B800F4DB55 /* FeedLoaderPresentationAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1325DE029B721B800F4DB55 /* FeedLoaderPresentationAdapter.swift */; };
+		C1325DE629B721B800F4DB55 /* LoadResourcePresentationAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1325DE029B721B800F4DB55 /* LoadResourcePresentationAdapter.swift */; };
 		C1325DE829B721C200F4DB55 /* FeedUIIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1325DE729B721C200F4DB55 /* FeedUIIntegrationTests.swift */; };
 		C1325DF229B721C900F4DB55 /* FeedUIIntegrationTests+Assertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1325DEA29B721C800F4DB55 /* FeedUIIntegrationTests+Assertions.swift */; };
 		C1325DF329B721C900F4DB55 /* FeedUIIntegrationTests+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1325DF129B721C900F4DB55 /* FeedUIIntegrationTests+Localization.swift */; };
@@ -87,7 +87,7 @@
 		C1325DDD29B721B800F4DB55 /* MainQueueDispatchDecorator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainQueueDispatchDecorator.swift; sourceTree = "<group>"; };
 		C1325DDE29B721B800F4DB55 /* WeakRefVirtualProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeakRefVirtualProxy.swift; sourceTree = "<group>"; };
 		C1325DDF29B721B800F4DB55 /* FeedUIComposer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedUIComposer.swift; sourceTree = "<group>"; };
-		C1325DE029B721B800F4DB55 /* FeedLoaderPresentationAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedLoaderPresentationAdapter.swift; sourceTree = "<group>"; };
+		C1325DE029B721B800F4DB55 /* LoadResourcePresentationAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadResourcePresentationAdapter.swift; sourceTree = "<group>"; };
 		C1325DE729B721C200F4DB55 /* FeedUIIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedUIIntegrationTests.swift; sourceTree = "<group>"; };
 		C1325DE929B721C800F4DB55 /* FeedUIIntegrationTests+LoaderSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedUIIntegrationTests+LoaderSpy.swift"; sourceTree = "<group>"; };
 		C1325DEA29B721C800F4DB55 /* FeedUIIntegrationTests+Assertions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedUIIntegrationTests+Assertions.swift"; sourceTree = "<group>"; };
@@ -207,7 +207,7 @@
 				C1325DDD29B721B800F4DB55 /* MainQueueDispatchDecorator.swift */,
 				C1325DDE29B721B800F4DB55 /* WeakRefVirtualProxy.swift */,
 				C1325DDF29B721B800F4DB55 /* FeedUIComposer.swift */,
-				C1325DE029B721B800F4DB55 /* FeedLoaderPresentationAdapter.swift */,
+				C1325DE029B721B800F4DB55 /* LoadResourcePresentationAdapter.swift */,
 			);
 			path = Composers;
 			sourceTree = "<group>";
@@ -321,7 +321,7 @@
 				C1325D4429B7008300F4DB55 /* SceneDelegate.swift in Sources */,
 				C1325E1029B9573700F4DB55 /* CombineHelpers.swift in Sources */,
 				C1325DE329B721B800F4DB55 /* MainQueueDispatchDecorator.swift in Sources */,
-				C1325DE629B721B800F4DB55 /* FeedLoaderPresentationAdapter.swift in Sources */,
+				C1325DE629B721B800F4DB55 /* LoadResourcePresentationAdapter.swift in Sources */,
 				C1325DE229B721B800F4DB55 /* FeedImageDataLoaderPresentationAdapter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
