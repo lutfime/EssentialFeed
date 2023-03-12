@@ -319,6 +319,7 @@
 		C1154CCA29A4703300F42EA0 /* EssentialFeediOS */ = {
 			isa = PBXGroup;
 			children = (
+				C1BAA8A729BDE771004DBEB8 /* Shared UI */,
 				C1AE869C29A5C1E1008F084E /* Feed UI */,
 			);
 			path = EssentialFeediOS;
@@ -344,10 +345,7 @@
 			isa = PBXGroup;
 			children = (
 				C1E9623729A5AD8F001F7166 /* UIView+Shimmering.swift */,
-				C1326BCC29A754C7001B20A3 /* UITableView+Dequeueing.swift */,
 				C1326BCE29A75723001B20A3 /* UIImageView+Animations.swift */,
-				C12F872A29B5C3F600884207 /* UIRefreshControl+Helpers.swift */,
-				C1325E0329B7335200F4DB55 /* UITableView+HeaderSizing.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -656,7 +654,6 @@
 				C1E9623529A588C2001F7166 /* FeedImageCell.swift */,
 				C123B4D229A73CCE0017037C /* Feed.storyboard */,
 				C123B4D429A73DB90017037C /* Feed.xcassets */,
-				C12F872529B5C0EA00884207 /* ErrorView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -664,7 +661,6 @@
 		C1AE868929A5BB83008F084E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				C1E9623329A5881E001F7166 /* ListViewController.swift */,
 				C1AE869A29A5BFC4008F084E /* FeedImageCellController.swift */,
 			);
 			path = Controllers;
@@ -695,6 +691,42 @@
 				C1BAA8A429BDD865004DBEB8 /* ImageComments.strings */,
 			);
 			path = "Image Comments Presentation";
+			sourceTree = "<group>";
+		};
+		C1BAA8A729BDE771004DBEB8 /* Shared UI */ = {
+			isa = PBXGroup;
+			children = (
+				C1BAA8AA29BDE79E004DBEB8 /* Controllers */,
+				C1BAA8A829BDE781004DBEB8 /* Views */,
+			);
+			path = "Shared UI";
+			sourceTree = "<group>";
+		};
+		C1BAA8A829BDE781004DBEB8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C1BAA8A929BDE786004DBEB8 /* Helpers */,
+				C12F872529B5C0EA00884207 /* ErrorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C1BAA8A929BDE786004DBEB8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C1326BCC29A754C7001B20A3 /* UITableView+Dequeueing.swift */,
+				C12F872A29B5C3F600884207 /* UIRefreshControl+Helpers.swift */,
+				C1325E0329B7335200F4DB55 /* UITableView+HeaderSizing.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C1BAA8AA29BDE79E004DBEB8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C1E9623329A5881E001F7166 /* ListViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		C1F343572994610700ED42B1 /* Feed Cache */ = {
