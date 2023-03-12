@@ -42,19 +42,7 @@ final class FeedViewAdapter: ResourceView {
             
             return view
         })
-            
-//            let adapter = FeedImageDataLoaderPresentationAdapter<WeakRefVirtualProxy<FeedImageCellController>, UIImage>(model: model, imageLoader: imageLoader)
-//                        let view = FeedImageCellController(delegate: adapter)
-//                        
-//                        adapter.presenter = FeedImagePresenter(
-//                            view: WeakRefVirtualProxy(view),
-//                            imageTransformer: UIImage.init)
-//                        
-//                        return view
-//        })
     }
-    
-
 }
 
 private struct InvalidImageData: Error {}
