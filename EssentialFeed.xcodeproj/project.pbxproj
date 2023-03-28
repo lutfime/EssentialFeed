@@ -13,6 +13,10 @@
 		C10CA31029D2BB02008ED20A /* FEED_WITH_LOAD_MORE_ERROR_extraExtraExtraLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = C10CA30D29D2BB02008ED20A /* FEED_WITH_LOAD_MORE_ERROR_extraExtraExtraLarge.png */; };
 		C10CA31129D2BB02008ED20A /* FEED_WITH_LOAD_MORE_ERROR_light.png in Resources */ = {isa = PBXBuildFile; fileRef = C10CA30E29D2BB02008ED20A /* FEED_WITH_LOAD_MORE_ERROR_light.png */; };
 		C10CA31329D2BBC8008ED20A /* Paginated.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10CA31229D2BBC8008ED20A /* Paginated.swift */; };
+		C10CA31929D2C469008ED20A /* EMPTY_LIST_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = C10CA31529D2C469008ED20A /* EMPTY_LIST_dark.png */; };
+		C10CA31A29D2C469008ED20A /* LIST_WITH_ERROR_MESSAGE_light.png in Resources */ = {isa = PBXBuildFile; fileRef = C10CA31629D2C469008ED20A /* LIST_WITH_ERROR_MESSAGE_light.png */; };
+		C10CA31B29D2C469008ED20A /* LIST_WITH_ERROR_MESSAGE_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = C10CA31729D2C469008ED20A /* LIST_WITH_ERROR_MESSAGE_dark.png */; };
+		C10CA31C29D2C469008ED20A /* EMPTY_LIST_light.png in Resources */ = {isa = PBXBuildFile; fileRef = C10CA31829D2C469008ED20A /* EMPTY_LIST_light.png */; };
 		C1154CD129A4703400F42EA0 /* EssentialFeediOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1154CC929A4703300F42EA0 /* EssentialFeediOS.framework */; };
 		C11FED4F29D279D1003914DC /* FEED_WITH_FAILED_IMAGE_LOADING_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = C11FED4A29D279D1003914DC /* FEED_WITH_FAILED_IMAGE_LOADING_dark.png */; };
 		C11FED5029D279D1003914DC /* FEED_WITH_CONTENT_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = C11FED4B29D279D1003914DC /* FEED_WITH_CONTENT_dark.png */; };
@@ -195,6 +199,10 @@
 		C10CA30D29D2BB02008ED20A /* FEED_WITH_LOAD_MORE_ERROR_extraExtraExtraLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FEED_WITH_LOAD_MORE_ERROR_extraExtraExtraLarge.png; sourceTree = "<group>"; };
 		C10CA30E29D2BB02008ED20A /* FEED_WITH_LOAD_MORE_ERROR_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FEED_WITH_LOAD_MORE_ERROR_light.png; sourceTree = "<group>"; };
 		C10CA31229D2BBC8008ED20A /* Paginated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paginated.swift; sourceTree = "<group>"; };
+		C10CA31529D2C469008ED20A /* EMPTY_LIST_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EMPTY_LIST_dark.png; sourceTree = "<group>"; };
+		C10CA31629D2C469008ED20A /* LIST_WITH_ERROR_MESSAGE_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LIST_WITH_ERROR_MESSAGE_light.png; sourceTree = "<group>"; };
+		C10CA31729D2C469008ED20A /* LIST_WITH_ERROR_MESSAGE_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LIST_WITH_ERROR_MESSAGE_dark.png; sourceTree = "<group>"; };
+		C10CA31829D2C469008ED20A /* EMPTY_LIST_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EMPTY_LIST_light.png; sourceTree = "<group>"; };
 		C1154CC929A4703300F42EA0 /* EssentialFeediOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeediOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1154CD029A4703300F42EA0 /* EssentialFeediOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeediOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C11FED4A29D279D1003914DC /* FEED_WITH_FAILED_IMAGE_LOADING_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FEED_WITH_FAILED_IMAGE_LOADING_dark.png; sourceTree = "<group>"; };
@@ -368,6 +376,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C10CA31429D2C469008ED20A /* snapshots */ = {
+			isa = PBXGroup;
+			children = (
+				C10CA31529D2C469008ED20A /* EMPTY_LIST_dark.png */,
+				C10CA31629D2C469008ED20A /* LIST_WITH_ERROR_MESSAGE_light.png */,
+				C10CA31729D2C469008ED20A /* LIST_WITH_ERROR_MESSAGE_dark.png */,
+				C10CA31829D2C469008ED20A /* EMPTY_LIST_light.png */,
+			);
+			path = snapshots;
+			sourceTree = "<group>";
+		};
 		C1154CCA29A4703300F42EA0 /* EssentialFeediOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -831,6 +850,7 @@
 		C1BAA8AB29BDE7F2004DBEB8 /* Shared UI */ = {
 			isa = PBXGroup;
 			children = (
+				C10CA31429D2C469008ED20A /* snapshots */,
 				C1BAA8AC29BDE7FD004DBEB8 /* ListSnapshotTests.swift */,
 			);
 			path = "Shared UI";
@@ -1091,13 +1111,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C10CA31B29D2C469008ED20A /* LIST_WITH_ERROR_MESSAGE_dark.png in Resources */,
 				C10CA30B29D2B950008ED20A /* FEED_WITH_LOAD_MORE_INDICATOR_dark.png in Resources */,
+				C10CA31929D2C469008ED20A /* EMPTY_LIST_dark.png in Resources */,
 				C11FED4F29D279D1003914DC /* FEED_WITH_FAILED_IMAGE_LOADING_dark.png in Resources */,
+				C10CA31C29D2C469008ED20A /* EMPTY_LIST_light.png in Resources */,
 				C11FED5929D27A39003914DC /* IMAGE_COMMENTS_dark.png in Resources */,
 				C10CA31129D2BB02008ED20A /* FEED_WITH_LOAD_MORE_ERROR_light.png in Resources */,
 				C11FED5A29D27A39003914DC /* IMAGE_COMMENTS_light.png in Resources */,
 				C11FED5329D279D1003914DC /* FEED_WITH_FAILED_IMAGE_LOADING_light.png in Resources */,
 				C10CA30F29D2BB02008ED20A /* FEED_WITH_LOAD_MORE_ERROR_dark.png in Resources */,
+				C10CA31A29D2C469008ED20A /* LIST_WITH_ERROR_MESSAGE_light.png in Resources */,
 				C11FED5029D279D1003914DC /* FEED_WITH_CONTENT_dark.png in Resources */,
 				C11FED5829D27A39003914DC /* IMAGE_COMMENTS_light_extraExtraExtraLarge.png in Resources */,
 				C10CA31029D2BB02008ED20A /* FEED_WITH_LOAD_MORE_ERROR_extraExtraExtraLarge.png in Resources */,
