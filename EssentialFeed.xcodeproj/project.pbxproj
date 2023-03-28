@@ -351,12 +351,20 @@
 		C1154CD429A4703400F42EA0 /* EssentialFeediOSTests */ = {
 			isa = PBXGroup;
 			children = (
+				C11FED4829D278A2003914DC /* Feed UI */,
 				C1BAA8AE29BE9039004DBEB8 /* Image Comments UI */,
 				C1BAA8AB29BDE7F2004DBEB8 /* Shared UI */,
 				C1325E0729B7356700F4DB55 /* Helpers */,
-				C1325E0529B7353E00F4DB55 /* FeedSnapshotTests.swift */,
 			);
 			path = EssentialFeediOSTests;
+			sourceTree = "<group>";
+		};
+		C11FED4829D278A2003914DC /* Feed UI */ = {
+			isa = PBXGroup;
+			children = (
+				C1325E0529B7353E00F4DB55 /* FeedSnapshotTests.swift */,
+			);
+			path = "Feed UI";
 			sourceTree = "<group>";
 		};
 		C123B4BC29A60C690017037C /* Frameworks */ = {
