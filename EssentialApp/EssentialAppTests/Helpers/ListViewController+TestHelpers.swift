@@ -30,6 +30,19 @@ extension ListViewController {
     var errorMessage: String? {
         return errorView.message
     }
+    
+    func numberOfRows(in section: Int) -> Int {
+        tableView.numberOfSections > section ? tableView.numberOfRows(inSection: section) : 0
+    }
+    
+    func cell(row: Int, section: Int) -> UITableViewCell? {
+        guard numberOfRows(in: section) > row else {
+            return nil
+        }
+        let ds = tableView.dataSource
+        let index = IndexPath(row: row, section: section)
+        return ds?.tableView(tableView, cellForRowAt: index)
+    }
 }
 
 extension ListViewController {
@@ -102,6 +115,14 @@ extension ListViewController {
         ds?.tableView?(tableView, cancelPrefetchingForRowsAt: [index])
     }
     
+    func simulateLoadMoreFeedAction() {
+         guard let view = cell(row: 0, section: feedLoadMoreSection) else { return }
+         
+         let delegate = tableView.delegate
+         let index = IndexPath(row: 0, section: feedLoadMoreSection)
+         delegate?.tableView?(tableView, willDisplay: view, forRowAt: index)
+     }
+    
     func renderedFeedImageData(at index: Int) -> Data? {
         return simulateFeedImageViewVisible(at: index)?.renderedImage
     }
@@ -119,7 +140,7 @@ extension ListViewController {
         return ds?.tableView(tableView, cellForRowAt: index)
     }
     
-    private var feedImagesSection: Int {
-        return 0
-    }
+    private var feedImagesSection: Int { 0 }
+    private var feedLoadMoreSection: Int { 1 }
+
 }
