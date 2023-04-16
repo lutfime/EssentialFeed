@@ -159,7 +159,7 @@ extension DispatchQueue {
 
 extension FeedImageDataCache {
     func saveIgnoringResult(_ data: Data, for url: URL) {
-        save(data, for: url) { _ in }
+        try? save(data, for: url)
     }
 }
 
