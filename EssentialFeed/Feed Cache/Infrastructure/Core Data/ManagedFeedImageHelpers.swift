@@ -43,6 +43,6 @@ extension ManagedFeedImage{
     public override func prepareForDeletion() {
         super.prepareForDeletion()
         
-        managedObjectContext?.userInfo[url!] = data
+//        managedObjectContext?.userInfo[url!] = data
     }
 }
